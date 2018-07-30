@@ -181,3 +181,4 @@ c) Sin modificar la estructura HTML proporcionado mostrar por consola los textos
     <script src="..."></script>
     </html>
 ```
+## [PROYECTO TEMA 7](projects/project7.md)

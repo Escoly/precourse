@@ -34,16 +34,22 @@ Así, los objetivos del pre-curso son:
 
 	![](https://d3dr1ze7164817.cloudfront.net/items/0d2U2V0d2v3y0S0Z0r3I/Screen%20Recording%202017-03-20%20at%2012.01%20p.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=873490d0)
 
+	[Proyecto 1](projects/project1.md)
+
 2. [Tema 2 - Methods](tema2.md) 
 	Tratamiento de variables simples con funciones/métodos propios de cada tipo de variable, a fin de transformarlas y conseguir un output deseado.
 
 	![](https://d3dr1ze7164817.cloudfront.net/items/3h2j0P3C441p1z2S150G/Screen%20Recording%202017-03-20%20at%2011.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=3e0b4c7d)
+
+	[Proyecto 2](projects/project2.md)
 	
 
 3. [Tema 3 - Objects](tema3.md)  
 	En este tema aprenderemos los inicios en la persistencia de los datos, almacenándolos en objetos, muy diferentes de arrays. Listaremos sus propiedades, sacaremos sus valores, los trataremos y almacenaremos más datos.
 
 	![](https://d3dr1ze7164817.cloudfront.net/items/0Q3Y3n382q3R1X1r2z0p/Screen%20Recording%202017-03-20%20at%2011.50%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=b2f62176)
+
+	[Proyecto 3](projects/project3.md)
 
 	
 
@@ -52,16 +58,21 @@ Así, los objetivos del pre-curso son:
 
 	![](https://d3dr1ze7164817.cloudfront.net/items/2y1H0l3O0e2C290W2Z18/Screen%20Recording%202017-03-21%20at%2009.47%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=5353f902)
 
+	[Proyecto 4](projects/project4.md)
+
 5. [Tema 5 - HTML](tema5.md)
 	 Aprenderemos los fundamentos de HTML. Del primero trabajaremos su estructura básica, sus tags principales: como juntarlos y mostrar información según un estilo.
 
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
+
+
 	 
 
 6. [Tema 6 - CSS](tema6.md)
 	 Aprenderemos los principales selectores, propiedades de los principales tags, etc.
 
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
+
 	 
 
 7. [Tema 7 - JS-NATIVE/HTML/CSS](tema7.md)
@@ -69,7 +80,9 @@ Así, los objetivos del pre-curso son:
 
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 
-8. [Final Project](final.md)
+	 [Proyecto 7](projects/project7.md)
+
+8. [Final Project](projects/project8.md)
 	 Poned en practica todo lo aprendido en un proyecto final que os servirá de entrada al curso. Enhorabuena! 🏃🏻
 
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt="">

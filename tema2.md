@@ -296,3 +296,5 @@ h) Ahora, limita el random de 0 a 50, Muestra un mensaje si el output age es < 2
 ```js
 return x + y // output: IronMan 3...Sure you're Tony Stark?
 ```
+
+## [PROYECTO TEMA 2](projects/project2.md)
