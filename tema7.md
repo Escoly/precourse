@@ -43,7 +43,7 @@ document.getElementById(idElemento).addEventListener('click', function(event) {
 });
 ```
 
-En algunos casos como en los `<a>` y en los `<form>` donde tendreís que utilizar el método preventDefault() que os proporciona la funcion de listener.
+En algunos casos como en los `<a>` y en los `<form>` tendreís que utilizar el método preventDefault() que os proporciona la funcion de listener.
 
 Esto es para prevenir el comportamiento por defecto del elemento en cuestión, por ejemplo un `<a>` intentará navegar hacia la dirección especificada en su href recargando esto la página.
 
