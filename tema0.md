@@ -1,6 +1,13 @@
 <img src="https://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## VARIABLES, LOOPS, CONDITIONALS
+## VARIABLES, COMPARADORES, CONDICIONALES Y LOOPS
+
+Puntos clave: 
+- Comprender qué es una variable y su utilidad.
+- Aprender y entender los tipos básicos de datos usados en JavaScript.
+- Entender y saber utilizar los comparadores y operadores básicos.
+- Usar las estructuras básicas de control (if/else/else if).
+- Saber aplicar los bucles de tipo for y while, en específico para iterar sobre los elementos de un array.
 
 #### Variable:
 
@@ -107,42 +114,6 @@ Los comparadores y operadores lógicos comparan el valor de dos variables y devu
 ```
 
 
-#### Loops:
-
-<img src="https://3.bp.blogspot.com/-f6yRbQQ_lCU/VXaV3w5WEbI/AAAAAAAAAJI/0-czJApvhEc/s1600/C-For-Loop-Statement.jpg" style="width:25%;height:25%;">
-
-
-Un loop nos sirve para iterar tantas veces como queramos y aplicar la misma lógica cada vez.
-
-En javascript hay 3 tipos de loops básicos:
-
-**for**  
-El bucle for lo utilizaremos cuando tengamos que repetir alguna lógica un numero **determinado** de veces.
-```js
-for(var i=0;i<10;i++){
-    //code here
-}
-```
-
-**while**   
-El bucle while lo utilizaremos cuando tengamos que repetir alguna lógica un numero **indeterminado** de veces y queremos que se ejecute mientras se cumpla una condición específica, esta condición se comprobará al **inicio** de cada iteración.
-
-```js
-while(condition){
-    //code here
-}
-```
-
-**do while**  
-El bucle while lo utilizaremos cuando tengamos que repetir alguna lógica un numero **indeterminado** de veces y queremos que se ejecute mientras se cumpla una condición específica, esta condición se comprobará al **final** de cada iteración.
-```js
-do{
-    //code here
-}while(condition)
-    
-```
-
-
 #### Conditionals
 <img src="http://cess.nyu.edu/wp-content/uploads/2012/01/ifcond.jpg" >
 
@@ -194,6 +165,42 @@ switch (a) {
         console.log("Oops!");
 }
 ```
+
+#### Loops:
+
+<img src="https://3.bp.blogspot.com/-f6yRbQQ_lCU/VXaV3w5WEbI/AAAAAAAAAJI/0-czJApvhEc/s1600/C-For-Loop-Statement.jpg" style="width:25%;height:25%;">
+
+
+Un loop nos sirve para iterar tantas veces como queramos y aplicar la misma lógica cada vez.
+
+En javascript hay 3 tipos de loops básicos:
+
+**for**  
+El bucle for lo utilizaremos cuando tengamos que repetir alguna lógica un numero **determinado** de veces.
+```js
+for(var i=0;i<10;i++){
+    //code here
+}
+```
+
+**while**   
+El bucle while lo utilizaremos cuando tengamos que repetir alguna lógica un numero **indeterminado** de veces y queremos que se ejecute mientras se cumpla una condición específica, esta condición se comprobará al **inicio** de cada iteración.
+
+```js
+while(condition){
+    //code here
+}
+```
+
+**do while**  
+El bucle while lo utilizaremos cuando tengamos que repetir alguna lógica un numero **indeterminado** de veces y queremos que se ejecute mientras se cumpla una condición específica, esta condición se comprobará al **final** de cada iteración.
+```js
+do{
+    //code here
+}while(condition)
+    
+```
+
 ---
 
 **Exercises:** // faltan 5

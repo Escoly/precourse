@@ -18,7 +18,7 @@ Así, los objetivos del pre-curso son:
 
 (Tiempo estimado: 70 horas).
 
-## Index:
+## Índice:
 
 #### Antes de empezar, preparemos el [entorno de desarrollo](start.md).
 

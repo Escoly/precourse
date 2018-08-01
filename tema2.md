@@ -1,8 +1,13 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
+
 ## Métodos
 
 Los métodos son funciones nativas de javascript aplicables a ciertos tipo de datos.
+
+### Puntos clave
+- Comprender la diferencia entre función y método.
+- Conocer y saber utilizar los métodos más habituales de String, Number y Array.
 
 ---
 ### Breve lista de métodos por tipo

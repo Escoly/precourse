@@ -18,7 +18,4 @@ Ejemplos:
 
 ---
 
-**EXTRA**
-
-Si ya has acabado con todos los proyectos y te sobra tiempo puedes realizar un hundir la flota.
 

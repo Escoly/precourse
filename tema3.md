@@ -2,6 +2,12 @@
 
 ## Objects
 
+### Puntos Clave
+
+- Profundizar en el uso de objetos (cómo asignarlos a una variable...).
+- Crear, modificar y eliminar propiedades de un objeto.
+
+
 #### Referencia:
 
 [Documentación sobre Objetos](https://developer.mozilla.org/es/docs/Web/Javascript/Referencia/Objetos_globales/Object)

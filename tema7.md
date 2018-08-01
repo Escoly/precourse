@@ -1,11 +1,19 @@
 ## JAVASCRIPT DOM
-
 -   [Referencia JS HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 -   [JS Events](https://www.w3schools.com/js/js_events.asp)
 
 En este tema aprendereis a acceder y modificar el DOM (Document Object Model) utilizando Javascript.
 
 El DOM representa el documento HTML de tu web y la manera en la que se accede al mismo.
+
+### Puntos clave
+
+- Comprender qué es el DOM.
+- Aprender a modificar el DOM mediante JavaScript.
+- Aprender a linkar los archivos de estilo CSS y JavaScript al HTML.
+- Añadir comportamiento y eventos a diferentes elementos de la página web.
+
+
 
 ### MÉTODOS DEL DOM
 

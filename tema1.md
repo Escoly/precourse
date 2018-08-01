@@ -2,7 +2,58 @@
 
 ## Funciones
 
+### Puntos clave:
+
+- Entender qué es y cómo crear una función.
+- Aprender a encapsular lógica (sentencias) en funciones para su posterior uso y reutilización.
+- Entender qué son los argumentos y como utilizarlos.
+- Conocer la diferencia entre funciones anónimas y no anónimas.
+- Comprender la diferencia entre return y console.log.
+
+
 ### [Leer antes de proseguir!](https://developer.mozilla.org/en-US/docs/Web/js/Guide/Functions)
+
+### Por qué usar funciones?
+
+Imaginemos que tenemos unas líneas de código que suma el valor de unas variables, algo tal que así:
+
+```js
+    var a = 1;
+    var b = 2;
+    var c;
+
+    if (typeof a === 'number' && typeof b === 'number') {
+        c = a + b;
+    }
+
+    ...
+
+    var d = 56;
+    var e = 23;
+    var f;
+
+    if (typeof d === 'number' && typeof e === 'number') {
+        f = d + e;
+    }
+```
+
+Como se puede apreciar, hay un bloque de código que nos interesa reutilizar. Aquí es donde las funciones nos ayudarían:
+
+```js
+function sum (num1,num2) {
+    if (typeof num1 === 'number' && typeof num2 === 'number') {
+        return num1 + num2;
+    }
+}
+
+var a = 1;
+var b = 2;
+var d = 56;
+var e = 23;
+
+var c = sum(a,b); // 3
+var f = sum(d,e); // 79
+```
 
 ### Diferencia entre console.log y return
 Console.log solamente muestra el valor de lo que introduzcas entre paréntesis en la consola.
