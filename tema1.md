@@ -114,7 +114,7 @@ myFunction()
 ```
 
 e) Ahora declara otra funcion que devuelva tu edad y asigna su resultado a otra variable, intenta imprimir sus dos resultados concatenados 
-Now, try to declare other function and assign it result to other variable called myAge, and try to print the result of both functions in one line.
+
 ```js
 myName() + myAge() //output: IronMan 40
 ```
