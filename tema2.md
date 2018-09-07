@@ -1,7 +1,7 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
 
-## Métodos
+## Métodos: [Vídeo](https://www.youtube.com/watch?v=QgFCriyEQso)
 
 Los métodos son funciones nativas de javascript aplicables a ciertos tipo de datos.
 

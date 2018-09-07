@@ -2,6 +2,8 @@
 
 ## VARIABLES, COMPARADORES, CONDICIONALES Y LOOPS
 
+### Antes de empezar: [Vídeo 1](https://www.youtube.com/watch?v=zhhVflROhlw) [Vídeo 2](https://www.youtube.com/watch?v=6pgnKqOQEXs)
+
 Puntos clave: 
 - Comprender qué es una variable y su utilidad.
 - Aprender y entender los tipos básicos de datos usados en JavaScript.

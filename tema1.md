@@ -2,6 +2,8 @@
 
 ## Funciones
 
+### Antes de empezar: [Vídeo](https://www.youtube.com/watch?v=wmNsai9rKJE)
+
 ### Puntos clave:
 
 - Entender qué es y cómo crear una función.
