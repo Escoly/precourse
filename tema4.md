@@ -1,5 +1,5 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
-## Final Challenges (JS)!
+## Final Challenges (JS): [Vídeo1](https://www.youtube.com/watch?v=g9WJ1oy1iII) [Vídeo2](https://www.youtube.com/watch?v=piX6UiIVd00) [Vídeo3](https://www.youtube.com/watch?v=1MnLKg_SZzk) [Vídeo4](https://www.youtube.com/watch?v=ivPmbZ0j9ao)
 
 a) Escribe una funcion en la que, declarando una array con los numeros del 1 al 9, muestres por pantalla los numeros unidos por parejas (1-2, 2-3, 3-4...), además, cada elemento de la  pareja deberá estar multiplicada por 2.
 ```js
