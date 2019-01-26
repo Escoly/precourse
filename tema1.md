@@ -13,7 +13,7 @@
 - Comprender la diferencia entre return y console.log.
 
 
-### [Leer antes de proseguir!](https://developer.mozilla.org/en-US/docs/Web/js/Guide/Functions)
+### [Leer antes de proseguir!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 ### Por qué usar funciones?
 
@@ -115,7 +115,7 @@ var MyFunction = ... //output: 'hello myName, you're myAge years old.'
 myFunction()
 ```
 
-e) Ahora declara otra funcion que devuelva tu edad y asigna su resultado a otra variable, intenta imprimir sus dos resultados concatenados 
+e) Ahora declara otra funcion que devuelva tu edad y asigna su resultado a otra variable, intenta imprimir sus dos resultados concatenados
 
 ```js
 myName() + myAge() //output: IronMan 40
@@ -146,12 +146,12 @@ return x + y // output: IronMan 6457689
 
 i) Al return de la función name(), concaténale otro mensaje
 ```js
-return x + y // output: Tony Stark...aka IRONMAN, 34...Sure you're Tony Stark? 
+return x + y // output: Tony Stark...aka IRONMAN, 34...Sure you're Tony Stark?
 ```
 
 j) Ahora, modifica el return de la función padre para que devuelva sus datos en un mensaje amigable
 ```js
-return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?' 
+return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?'
 ```
 
 k) Modifica la primera función y la función padre para, si el parámetro introducido no es tu nombre, no siga con la segunda llamada
