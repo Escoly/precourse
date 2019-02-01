@@ -269,7 +269,7 @@ g1) Declara tu nombre y tu edad en dos variables y crea un condicional para, en 
 ```js
 var myName...
 var myAge...
-if(oneThing && otherThing...){"this is not you!"}
+if(oneThing || otherThing...){"this is not you!"}
 else{"Hi!! Glad to see u again!"}
 ```
 

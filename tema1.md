@@ -13,7 +13,7 @@
 - Comprender la diferencia entre return y console.log.
 
 
-### [Leer antes de proseguir!](https://developer.mozilla.org/en-US/docs/Web/js/Guide/Functions)
+### [Leer antes de proseguir!](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Funciones)
 
 ### Por qué usar funciones?
 
@@ -129,13 +129,20 @@ myName(param1) + myAge(param2) //output: IronMan 43
 
 ```
 
-g) Intenta englobar todas las funciones en una sola funcion padre, el return de dicha función padre deberá ser la llamada a las funciones hijas
+g) Intenta englobar todas las funciones en una sola funcion padre, el return de dicha función padre deberá ser la llamada a las funciones hijas. (En el ejemplo tenemos la function "personData" que engloba la function name y age, cada una es una función hija o anidada dentro de la función personData).
 ```js
-function ... (){
-    var x = myName(param1)
-    var y = myAge(param2)
+function personData(...){
+    var name = function myName(param1){
+	...
+	}
+    var age = function myAge(param2){
+	...
+	}
     return x + y
-} //output: IronMan 40
+} 
+    
+personData('IronMan', '40') //output: IronMan 40
+// tip --> remplazar los puntos ... si nos hace falta
 ```
 
 
