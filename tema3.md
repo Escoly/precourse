@@ -20,10 +20,10 @@ A continuación creamos un objeto "avenger" el cual contiene tres propiedades. T
 Para acceder a un valor solamente debemos escribir el nombre del objeto, punto y la clave en custión. También es posible acceder como objeto[clave].
 
 ```js
-var avenger = { 
-    name : "Tony", 
-    class : "VII", 
-    id : 1 
+var avenger = {
+    name : "Tony",
+    class : "VII",
+    id : 1
 };
 console.log(avenger.name) // "Tony"
 console.log(avenger["name"]);
@@ -33,7 +33,7 @@ console.log(avenger[exampleKey]);
 ---
 **Ejercicios:**
 
-a) Escribe una función que liste los nombres de propiedad del objeto 
+a) Escribe una función que liste los nombres de propiedad del objeto
 (Puedes usar el objeto creado más arriba)
 ```js
 console.log(something, somethingMore, somethingMoreAndMore)
@@ -86,7 +86,7 @@ console.log(location) // NYC
 ```
 
 i) Crea un **constructor** de objetos llamado "Avenger", al cual le pasarás ciertos parametros, creando una instancia del objeto con las propiedades de nuestro objeto creado.
-(Échale un ojo a la referencia de abajo.) 
+(Échale un ojo a la referencia de abajo.)
 
 http://www.w3schools.com/js/js_object_definition.asp
 
@@ -117,12 +117,12 @@ k) Crea una propiedad del objeto que liste automáticamente los valores de la in
 ...
 ...
 this.listProperties: function(){
-    console.log(this.name + ", " + this.class) 
+    console.log(this.name + ", " + this.class)
 };
 }
 ```
 
-<details> 
+<details>
   <summary>Spoiler!</summary>
     <pre>
     <code>
@@ -156,14 +156,14 @@ console.log(myFunction) // Are 3 avengers living in NYC: Tony, Hulk, Hawkeye
 
 Pista: Intenta tener a todos los objetos dentro de una array, al tener todos los datos juntos, podrás filtrarlos y mostrarlos...
 
-- [Filter](https://developer.mozilla.org/en-US/docs/Web/js/Reference/Global_Objects/Array/filter?v=control)
-- [forEach](https://developer.mozilla.org/es/docs/Web/js/Referencia/Objetos_globales/Array/forEach)
+- [Filter](https://developer.mozilla.org/en-US/docs/Web/javascript/Reference/Global_Objects/Array/filter)
+- [forEach](https://developer.mozilla.org/es/docs/Web/javascript/Referencia/Objetos_globales/Array/forEach)
 
 n) Para acabar, créate a ti mismo y crea una función que recoja todas las markAv y muestre la media.
 
 ñ) Ahora, crea una funcion que recoja los avengers en parejas (será necesario que tengan un id, por comodidad al aparejarlos), es decir, de dos en dos, compare sus markAv y que muestre el mayor de ambos.
 ```js
-console.log(myFunction()) 
+console.log(myFunction())
 // HawkEye vs Tony => Tony is better! \n Thor vs Hulk => Hulk is better! \n Vision vs Captain America => Vision is better
 ```
 ñ1) Intenta crear las parejas de forma aleatoria.
