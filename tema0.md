@@ -207,7 +207,7 @@ do{
 
 **Exercises:** // faltan 5
 
-a) Declara tu nombre y muéstralo por consola: 
+a) Declara tu nombre en una variable llamada name y muéstralo por consola: 
 
 ```js
 console.log(name); //Mark
