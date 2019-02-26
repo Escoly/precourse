@@ -2,7 +2,7 @@
 
 ## VARIABLES, COMPARADORES, CONDICIONALES Y LOOPS
 
-### Antes de empezar: [Vídeo 1](https://www.youtube.com/watch?v=zhhVflROhlw) [Vídeo 2](https://www.youtube.com/watch?v=6pgnKqOQEXs)
+### Antes de empezar:
 
 Puntos clave: 
 - Comprender qué es una variable y su utilidad.
@@ -17,25 +17,28 @@ Una variable es un contenedor que sirve para almacenar datos.
 En javascript utilizamos la palabra reservada ``` var ``` para declarar una variable. 
 
 Existen distintos tipos de datos, los más habituales son los siguientes:
-- **String** : Se trata de una secuencia de caracteres, siempre se escribe entre comillas simples o dobles.
+- **String** : Secuencia de caracteres, siempre se escribe entre comillas simples o dobles.
 
 ```js
 var str = "Hello, world!";
 ``` 
-- **Number**: Simplemente un valor numérico. Los decimales se especifican con punto. 
+```js
+var str2 = 'Hello, world!';
+``` 
+- **Number**: Valor numérico. Los decimales se especifican con punto. 
 ```js
 var num = 9.78;
 ```
-- **Boolean**: Tipo de dato lógico, sólo acepta valores: true o false.
+- **Boolean**: Tipo de dato lógico. Sólo acepta valores: true o false.
 ```js
 var bool1 = true;
 var bool2 = false;
 ```
-- **Array**: Una estructura de datos que sirve para almacenar diferentes datos de forma ordenada. Es un subtipo de objeto y es iterable.
+- **Array**: Estructura de datos que sirve para almacenar diferentes datos de forma ordenada. Cada valor está asignado a una posición concreta dentro del Array. Es un subtipo del tipo de dato Object y es iterable.
 ```js
 var arr = [true, 1, "hello"];
 ```
-- **Object**: Otra estructura de almacenamiento de datos, pero esta vez se le atribuye una clave a cada valor, en vez de su posición dentro del objeto.
+- **Object**: Estructura de almacenamiento de datos que funciona por relación clave-valor. A cada clave se le atribuye un valor, en vez de su posición dentro del objeto.
 
 ```js
 var obj = {
@@ -43,6 +46,13 @@ var obj = {
     secondKey: 98,
     thirdKey: true,
     fourthKey: [123, "bla", false, 2.4]
+};
+```
+```js
+var obj2 = {
+    name: 'John',
+    surname: 'Doe',
+    age: 44
 };
 ```
 #### Comparadores y operadores lógicos:
@@ -59,7 +69,7 @@ Los comparadores y operadores lógicos comparan el valor de dos variables y devu
  3 == true // false
 ```
 #### a === b: 
-  Lo mismo pero además compara que sean el mismo tipo de dato.
+  Compara el valor de a y b y además compara que sean del mismo tipo de datos.
 ```js
  3 === 3 // true.
  3 === "3" // false.
@@ -81,8 +91,7 @@ Los comparadores y operadores lógicos comparan el valor de dos variables y devu
  3 !== true // true
 ```
 #### >, <, >=, <=
-    Mayor que, menorque , mayor o igual que, 
-    menor o igual que.
+    Mayor que, menor que , mayor o igual que, menor o igual que. Comparan los dos valores y devuelven un booleano.
 ```js
  3 > 5 // false.
  3 < 7 // true.
@@ -98,7 +107,7 @@ Los comparadores y operadores lógicos comparan el valor de dos variables y devu
  !true //false
  !false //true
 ```
-#### &&
+#### && 
     AND, devuelve true sólo si ambos inputs són true.
 ```js
  true && true //true
@@ -117,12 +126,23 @@ Los comparadores y operadores lógicos comparan el valor de dos variables y devu
 
 
 #### Conditionals
-<img src="http://cess.nyu.edu/wp-content/uploads/2012/01/ifcond.jpg" >
+<img src="http://cess.nyu.edu/wp-content/uploads/2012/01/ifcond.jpg" > //NO ES CLARO! QUÉ ES A, B Y C! 
 
 
 Los condicionales **if**, **else if** y **else** nos sirven para ejecutar un trozo de código dependiendo de si cumple una determinada condición o no.
 
-En caso de querer usar varios **else if** podemos usar el atajo **switch**.
+
+```js
+var a = 10;
+var b = 7;
+
+if (a>b) {
+ //code here
+ //This code will be executed
+} else {
+ //code here
+}
+```
 
 ```js
 var a = 10;
@@ -132,6 +152,7 @@ if (a<b) {
  //code here
 } else {
  //code here
+ //This code will be executed
 }
 ```
 
@@ -145,10 +166,13 @@ if (a<b) {
  //code here
 } else if (c<b){
  //code here
+ //This code will be executed
 } else {
  //code here
 }
 ```
+
+En caso de querer usar varios **else if** podemos usar el atajo **switch**.
 
 ```js
 var a = 3;
@@ -162,9 +186,114 @@ switch (a) {
         break;
     case 3:
         console.log("Three!");
+        //This code will be executed
         break;
     default:
         console.log("Oops!");
+}
+```
+
+```js
+var a = 1;
+
+switch (a) {
+    case 1:
+        console.log("One!");
+        //This code will be executed
+        break;
+    case 2:
+        console.log("Two!");
+        break;
+    case 3:
+        console.log("Three!");
+        break;
+    default:
+        console.log("Oops!");
+}
+```
+
+```js
+var a = 4;
+
+switch (a) {
+    case 1:
+        console.log("One!");
+        break;
+    case 2:
+        console.log("Two!");
+        break;
+    case 3:
+        console.log("Three!");
+        break;
+    default:
+        console.log("Oops!");
+        //This code will be executed
+}
+```
+
+Podemos usar operadores lógicos dentro de las condiciones.
+
+```js
+var a = 10;
+var b = 7;
+var c = 3;
+
+if (a>b && b>c) {
+ //code here
+ //This code will be executed
+} else {
+ //code here
+}
+```
+
+```js
+var a = 10;
+var b = 7;
+var c = 3;
+
+if (a<b && b>c) {
+ //code here
+} else {
+ //code here
+ //This code will be executed
+}
+```
+
+```js
+var a = 10;
+var b = 7;
+var c = 3;
+
+if (a<b || b>c) {
+ //code here
+ //This code will be executed
+} else {
+ //code here
+}
+```
+```js
+var a = 10;
+var b = 7;
+var c = 3;
+
+if (a>b || b>c) {
+ //code here
+ //This code will be executed
+} else {
+ //code here
+}
+```
+
+```js
+var a = 10;
+var b = 7;
+var c = 3;
+
+if (a<b || b<c) {
+ //code here
+} else {
+ //code here
+ //This code will be executed
 }
 ```
 
@@ -173,7 +302,7 @@ switch (a) {
 <img src="https://3.bp.blogspot.com/-f6yRbQQ_lCU/VXaV3w5WEbI/AAAAAAAAAJI/0-czJApvhEc/s1600/C-For-Loop-Statement.jpg" style="width:25%;height:25%;">
 
 
-Un loop nos sirve para iterar tantas veces como queramos y aplicar la misma lógica cada vez.
+Un loop nos sirve para ejecutar un mismo código repetidas veces, siempre y cuando se cumpla cierta condición.
 
 En javascript hay 3 tipos de loops básicos:
 
@@ -182,6 +311,7 @@ El bucle for lo utilizaremos cuando tengamos que repetir alguna lógica un numer
 ```js
 for(var i=0;i<10;i++){
     //code here
+    //That code will be executed 10 times
 }
 ```
 
@@ -194,18 +324,58 @@ while(condition){
 }
 ```
 
+```js
+var a = 5;
+while(a<10){
+    //code here
+    a++;
+    //That code will be executed 5 times
+}
+```
+
+```js
+while(false){
+    //code here
+    //That code won't be executed
+}
+```
+
 **do while**  
 El bucle while lo utilizaremos cuando tengamos que repetir alguna lógica un numero **indeterminado** de veces y queremos que se ejecute mientras se cumpla una condición específica, esta condición se comprobará al **final** de cada iteración.
+
 ```js
 do{
     //code here
 }while(condition)
-    
 ```
 
+```js
+var a = 5;
+do{
+    //code here
+    a++;
+    //That code will be executed 5 times
+}while(a<10)
+```
+
+```js
+do{
+    //code here
+    //That code will be executed 1 time
+}while(false)
+```
 ---
 
-**Exercises:** // faltan 5
+
+**Apis nativas del browser: prompt, alert, confirm**  
+
+
+
+**Mini intro a funciones**  
+
+
+
+**Exercises:** 
 
 a) Declara tu nombre y muéstralo por consola: 
 
