@@ -1,6 +1,17 @@
 # Que necesitas para empezar? 👨🏻‍💻👩🏻‍💻
 
 
+
+AÑADIR:
+-1 hacer ejercicios
+-2o hacer los proyectos. 
+  -diferencia entre el mini proyecto y la parte pro
+  -Subir al drive... uso del trello...
+  -tips de mejora por parte del teacher assistant
+
+
+
+
 ## Visual Studio Code
 
 De ahora en adelante siempre escribiremos código usando [Visual Studio Code](https://code.visualstudio.com). Se trata de un editor de código muy utilizado en desarrollo web.
